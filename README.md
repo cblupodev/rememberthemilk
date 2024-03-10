@@ -4,6 +4,8 @@
 
 Step by step:
 
+[Video demo](https://www.youtube.com/watch?v=N0nkTta5aPI)
+
 1. Create a [rtm script](https://www.rememberthemilk.com/services/milkscript/) that changes the due time on a task (the due time, not a start time or a postpone time) https://github.com/cblupodev/rememberthemilk/blob/main/postpone-by-time/task-postponements-main.js
 
 2. Create a trigger that fires when a tag is added to a task, such as from ifttt https://ifttt.com, which can run the above script
