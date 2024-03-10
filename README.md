@@ -9,7 +9,7 @@ Step by step:
 2. Create a trigger that fires when a tag is added to a task, such as from ifttt https://ifttt.com, which can run the above script
 
 3. Add a tag to a task such as `postpone-hr01`, or `postpone-hr03`, or `postpone-min10`, etc
-- "postpone-" can be easily changed to whatever you want (just change the "prefix" variable at the top of the script)
+- "postpone-" can be easily changed to whatever you want (just change the "prefix" variable at the top of the main script)
 
 5. ifttt runs the script to change the due time on that task, offset from your current local time not the time on the task
 
