@@ -4,7 +4,7 @@
 
 ## Step by step:
 
-1. Create a [RTM MilkScript](https://www.rememberthemilk.com/services/milkscript/) that changes the due time on a task (the due time, not a start time or a postpone time). Copy [task-postponements-main.js](https://github.com/cblupodev/rememberthemilk/blob/main/postpone-by-time/task-postponements-main.js) into your own library of MilkScripts
+1. Create a [RTM MilkScript](https://www.rememberthemilk.com/services/milkscript/) that changes the due time on a task (the due time, not a start time or a postpone time). Copy [task-postponements-main.js](https://github.com/cblupodev/rememberthemilk/blob/main/postpone-by-time/task-postponements-main.js) into your own library of MilkScripts  
   - A Pro membership is required to use MilkScripts
 
 3. Create a trigger that fires when a tag is added to a task, such as from IFTTT https://ifttt.com, which can run the above MilkScript
