@@ -1,4 +1,5 @@
 const tagPostponementPrefix = "postpone";
+
 const tasksToPostPone = rtm.getTasks(`tagContains:${tagPostponementPrefix}`);
 
 console.log(`number of tasks found to postpone ${tasksToPostPone.length}`);
