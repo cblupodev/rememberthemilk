@@ -2,7 +2,7 @@
 
 [Video demo](https://www.youtube.com/watch?v=N0nkTta5aPI)
 
-Step by step:
+## Step by step:
 
 1. Create a [RTM MilkScript](https://www.rememberthemilk.com/services/milkscript/) that changes the due time on a task (the due time, not a start time or a postpone time). Copy [task-postponements-main.js](https://github.com/cblupodev/rememberthemilk/blob/main/postpone-by-time/task-postponements-main.js) into your own library of MilkScripts
 
@@ -17,3 +17,11 @@ Step by step:
 - Add a note to the task "originalDueTime=14:30"
 - Then manually run the task https://github.com/cblupodev/rememberthemilk/blob/main/postpone-by-time/task-duetimes-reset.js to reset all tasks containing "originalDueTime" to that time
 - This is also shown in the video demo
+
+## Why this was necessary
+- Is it possible to set Postpone duration ie by hours, or days, weeks?" https://www.rememberthemilk.com/forums/help/6335/
+- Postpone for arbitrary intervals" https://www.rememberthemilk.com/forums/help/7687/
+- can I postpone my tasks by 1 hour?" https://www.rememberthemilk.com/forums/help/22487/
+- postpone by less than a day?" https://www.rememberthemilk.com/forums/help/29341/
+- Ability to postpone to later in the date or fixed time" https://www.rememberthemilk.com/forums/ideas/14096/
+- Ability to postpone for a few hours (instead of days)" https://www.rememberthemilk.com/forums/ideas/22321/
