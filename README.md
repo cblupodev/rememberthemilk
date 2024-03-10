@@ -8,11 +8,12 @@ Step by step:
 
 2. Create a trigger that fires when a tag is added to a task, such as from ifttt https://ifttt.com, which can run the above script
 
-3. Add a tag to a task such as "postpone_hr01"
+3. Add a tag to a task such as `postpone-hr01`, or `postpone-hr03`, or `postpone-min10`, etc
+   - "postpone-" can be easily changed to whatever you want (just change the "prefix" variable at the top of the script)
 
-4. ifttt runs the script to change the due time on that task, offset from your current local time not the time on the task
+5. ifttt runs the script to change the due time on that task, offset from your current local time not the time on the task
 
-5. If the task was a repeating task then the due time can be reset back to the original time like this:
+6. If the task was a repeating task then the due time can be reset back to the original time like this:
 - Add a note to the task "originalDueTime=14:30"
 - Then manually run the task https://github.com/cblupodev/rememberthemilk/blob/main/postpone-by-time/task-duetimes-reset.js to reset all tasks containing "originalDueTime" to that time
 - This is also shown in the video demo
