@@ -2,9 +2,7 @@
 
 ## Postpone Tasks by time (such as 1 hour from now or 10 minutes from now)
 
-Step-by-step
-
-TODO link to video demo
+Step by step:
 
 1. Create a [rtm script](https://www.rememberthemilk.com/services/milkscript/) that changes the due time on a task (the due time, not a start time or a postpone time) https://github.com/cblupodev/rememberthemilk/blob/main/postpone-by-time/task-postponements-main.js
 
@@ -17,4 +15,4 @@ TODO link to video demo
 5. If the task was a repeating task then the due time can be reset back to the original time like this:
 - Add a note to the task "originalDueTime=14:30"
 - Then manually run the task https://github.com/cblupodev/rememberthemilk/blob/main/postpone-by-time/task-duetimes-reset.js to reset all tasks containing "originalDueTime" to that time
-- This is also shown in the [video demo TODO](TODO)
+- This is also shown in the video demo
