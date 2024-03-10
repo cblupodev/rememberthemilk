@@ -8,7 +8,7 @@ Step by step:
 
 2. Create a trigger that fires when a tag is added to a task, such as from ifttt https://ifttt.com, which can run the above script
 
-3. Add a tag to a task such as "postpone-by-1-hour"
+3. Add a tag to a task such as "postpone_hr01"
 
 4. ifttt runs the script to change the due time on that task, offset from your current local time not the time on the task
 
