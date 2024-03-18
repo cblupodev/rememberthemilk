@@ -19,7 +19,7 @@
   - Then manually run the task https://github.com/cblupodev/rememberthemilk/blob/main/postpone-by-time/task-duetimes-reset.js to reset all tasks containing "originalDueTime" to that time
   - This is also shown in the video demo
 
-## Why this was necessary
+## Why this is necessary
 - Is it possible to set Postpone duration ie by hours, or days, weeks?" https://www.rememberthemilk.com/forums/help/6335/
 - Postpone for arbitrary intervals" https://www.rememberthemilk.com/forums/help/7687/
 - can I postpone my tasks by 1 hour?" https://www.rememberthemilk.com/forums/help/22487/
