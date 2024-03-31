@@ -1,4 +1,4 @@
-# Postpone tasks by time (such as 1 hour from now or 10 minutes from now)
+# Postpone tasks by hourly time (such as 1 hour from now or 10 minutes from now)
 
 [Video demo](https://www.youtube.com/watch?v=N0nkTta5aPI)
 
