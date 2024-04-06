@@ -1,4 +1,4 @@
-// https://github.com/cblupodev/rememberthemilk/main/duplicate/task-duplicate.js
+// https://github.com/cblupodev/rememberthemilk/blob/main/duplicate/task-duplicate.js
 
 const duplicateTagName = "duplicate";
 let duplicateTheseTasks = rtm.getTasks(`tag:${duplicateTagName}`);
