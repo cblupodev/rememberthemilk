@@ -37,7 +37,7 @@ TODO video demo
   - A Pro membership is required to use MilkScripts
     
 2. Add a tag to a task `duplicate`
-  - this tag can be easily changed to whatever you want (just change the tag name variable at the top of the MilkScript)
+  - This tag can be easily changed to whatever you want (just change the tag name variable at the top of the MilkScript)
 
 3. Create a trigger that fires when a tag is added to a task, such as from IFTTT https://ifttt.com, which can run the above MilkScript
 
