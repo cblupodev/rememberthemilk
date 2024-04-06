@@ -29,7 +29,7 @@
 
 # Duplicate tasks from the Android/iOS app
 
-TODO video demo
+[Video demo](https://youtu.be/QD3ftDkEIVA)
 
 ## Step by step:
 
