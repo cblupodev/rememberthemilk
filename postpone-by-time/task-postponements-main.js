@@ -1,12 +1,11 @@
 const tagPostponementPrefix = "postpone";
-
-const tasksToPostPone = rtm.getTasks(`tagContains:${tagPostponementPrefix}`);
+const tasksToPostPone = rtm.getTasks(`tagContains:${tagPostponementPrefix} status:incomplete`);
 
 console.log(`number of tasks found to postpone ${tasksToPostPone.length}`);
 
 // process tasks from the task search
 tasksToPostPone.forEach(task => {
-  const ppTag = getPostponementTag(task);
+  let ppTag = getPostponementTag(task);
 
   let taskDueTime = new Date();
   let currentHourOffset = (new Date()).getHours();
@@ -14,7 +13,7 @@ tasksToPostPone.forEach(task => {
   let currentHourOffsetInMilliseconds = currentHourOffset * 60 * 60 * 1000;
   let currentMinuteOffsetInMilliseconds = currentMinutesOffset * 60 * 1000;
 
-  console.log(`task to postpone: name=${task.getName()},   pptags=${ppTag.getName()},   taskDueTime=${taskDueTime},    currentHourOffset=${currentHourOffset},    currentMinutesOffset=${currentMinutesOffset}`);
+  console.log(`task to postpone: name=${task.getName()},   pptags=${ppTag?.getName()},   taskDueTime=${taskDueTime},    currentHourOffset=${currentHourOffset},    currentMinutesOffset=${currentMinutesOffset}`);
 
   console.log(`reset the time to midnight so I can offset from my current time, not the time on the task:`);
 
@@ -25,7 +24,7 @@ tasksToPostPone.forEach(task => {
     taskDueTime.getTime()
     + currentHourOffsetInMilliseconds 
     + currentMinuteOffsetInMilliseconds 
-    + getThePostponeValueAsNumberOfMilliseconds(ppTag.getName()));
+    + getThePostponeValueAsNumberOfMilliseconds(ppTag?.getName()));
     
   task.setDueTime(taskDueTime);
 
@@ -48,6 +47,11 @@ function getPostponementTag(task) {
 
 // get how many milliseconds to add to the task
 function getThePostponeValueAsNumberOfMilliseconds(tagString) {
+    if (!tagString) {
+      console.log(`input tagString is undefined`);
+      return;
+    }
+
     console.log(`tagString=${tagString}`);
 
     var multiplierString = tagString.match(/hr|min/)?.[0];
