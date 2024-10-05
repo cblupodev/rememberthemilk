@@ -33,7 +33,7 @@
 
 ## Step by step:
 
-1. Create a [RTM MilkScript](https://www.rememberthemilk.com/services/milkscript/), copy [task-duplicate.js](https://github.com/cblupodev/rememberthemilk/edit/main/duplicate/task-duplicate.js) into your own library of MilkScripts  
+1. Create a [RTM MilkScript](https://www.rememberthemilk.com/services/milkscript/), copy [task-duplicate.js](https://github.com/cblupodev/rememberthemilk/blob/main/duplicate/task-duplicate.js) into your own library of MilkScripts  
   - A Pro membership is required to use MilkScripts
     
 2. Add a tag to a task `duplicate`
